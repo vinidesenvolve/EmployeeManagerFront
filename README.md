@@ -1,27 +1,95 @@
-# EmployeeManager
+CRUD Produto Angular
+Descrição
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.1.3.
+Aplicação para fazer cadastro, leitura, edição e deleção de Produtos.
 
-## Development server
+Desenvolvida no curso de Angular9 Essencial da Cod3r com Leonardo Leitão
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+https://www.cod3r.com.br/courses/angular-9-essencial
+Índice
 
-## Code scaffolding
+- Status - Requisitos - Executando - Tecnologias - Autor - Licença -
+Status
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Finalizado
+Funcionalidades
 
-## Build
+    Cadastrar Produto
+    Carregar lista de Produtos
+    Editar Produto
+    Apagar Produto
+    Conexão com BD
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Requisitos
+Ferramentas necessárias
 
-## Running unit tests
+Instale essas ferramnetas em sua máquina (caso não as tenha)
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+    Git
+    Node.js
+    Angular-CLI
 
-## Running end-to-end tests
+Dependências
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+    json-server
+    nanoId
+    ng2-currency-mask
+    rxjs
+    Angular Material
 
-## Further help
+Clone o repositório
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+No terminal ou prompt de comando
+
+$ git clone https://github.com/vinidesenvolve/APICrudProduto.git
+Executando
+Suba o back-end
+
+Na pasta back-end
+
+$ npm start
+Suba o front-end
+
+Na pasta front-end
+
+$ npm start
+
+http://localhost:4200/
+Tela inicial - Home
+
+Imagem home
+Tela de produtos - Produtos
+
+Imagem pergunta
+Tela para cadastrar - Produto
+
+Imagem resposta
+Tela para editar - Produto
+
+Imagem resposta
+Tela para excluir - Produto
+
+Imagem resposta
+Tecnologias
+
+    TypeScript
+    Angular11
+
+Autor
+
+Vinicius Alves Rodrigues
+
+Likedin
+
+Email
+Licença
+
+MIT License
+
+Copyright (c) 2021 Vinicius A. Rodrigues
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
