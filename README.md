@@ -1,95 +1,132 @@
-CRUD Produto Angular
-Descrição
+# CRUD Employee Manager
 
-Aplicação para fazer cadastro, leitura, edição e deleção de Produtos.
+## Descrição
 
-Desenvolvida no curso de Angular9 Essencial da Cod3r com Leonardo Leitão
+Aplicação para fazer cadastro, leitura, edição e deleção de Funcionários.
 
-https://www.cod3r.com.br/courses/angular-9-essencial
-Índice
+Desenvolvida no curso Fullstack Spring and Angular
 
-- Status - Requisitos - Executando - Tecnologias - Autor - Licença -
-Status
+<https://www.youtube.com/watch?v=Gx4iBLKLVHk>
+
+## Índice
+<p align="center"> - 
+ <a href="#status">Status</a> - 
+ <a href="#requisitos">Requisitos</a> - 
+ <a href="#executando">Executando</a> - 
+ <a href="#tecnologias">Tecnologias</a> - 
+ <a href="#autor">Autor</a> - 
+ <a href="#licença">Licença</a> - 
+</p>
+
+## Status 
 
 Finalizado
-Funcionalidades
 
-    Cadastrar Produto
-    Carregar lista de Produtos
-    Editar Produto
-    Apagar Produto
-    Conexão com BD
+## Funcionalidades
 
-Requisitos
-Ferramentas necessárias
+- [x] Cadastrar Funcionário
+- [x] Carregar lista de Funcionários
+- [x] Editar Funcionário
+- [x] Apagar Funcionário
+- [x] Conexão com BD
+
+## Requisitos
+
+### Ferramentas necessárias
 
 Instale essas ferramnetas em sua máquina (caso não as tenha)
 
-    Git
-    Node.js
-    Angular-CLI
+- [Git](https://git-scm.com)
+- [Java 11+](https://www.java.com/en/)
+- [Angular-CLI](https://angular.io/cli)
+- [MySQL](https://www.mysql.com/)
+- [VScode](https://code.visualstudio.com/) ou outro IDE da sua preferência
 
-Dependências
+### Clone o repositório
 
-    json-server
-    nanoId
-    ng2-currency-mask
-    rxjs
-    Angular Material
+No terminal ou prompt de comando 
 
-Clone o repositório
+Front-end
 
-No terminal ou prompt de comando
+<code> $ git clone <https://github.com/vinidesenvolve/EmployeeManagerFront.git> </code>
 
-$ git clone https://github.com/vinidesenvolve/APICrudProduto.git
-Executando
-Suba o back-end
+Back-end
 
-Na pasta back-end
+<code> $ git clone <https://github.com/vinidesenvolve/employeeManagerBack.git> </code>
 
-$ npm start
-Suba o front-end
+  
+## Executando
 
-Na pasta front-end
+### Suba o back-end
 
-$ npm start
+Use a idea para subir a aplicação
+  
+Caso seja no VScode instale um extensão para ter acesso ao Spring Dash Board
 
-http://localhost:4200/
-Tela inicial - Home
+### Suba o front-end
 
-Imagem home
-Tela de produtos - Produtos
+Entre pelo terminal na pasta front-end
 
-Imagem pergunta
-Tela para cadastrar - Produto
+<code>$ ng serve </code>
 
-Imagem resposta
-Tela para editar - Produto
+<http://localhost:4200/>
+  
+  
 
-Imagem resposta
-Tela para excluir - Produto
+https://user-images.githubusercontent.com/75989911/127698504-ec67ef50-d28d-438a-8eaa-879bfaa3a7c6.mp4
 
-Imagem resposta
-Tecnologias
+ 
 
-    TypeScript
-    Angular11
+### Tela inicial - Home
+![Imagem home](https://github.com/vinidesenvolve/APICrudProduto/blob/master/frontend/src/assets/img/Home.png)
 
-Autor
+### Tela de produtos - Produtos
+![Imagem pergunta](https://github.com/vinidesenvolve/APICrudProduto/blob/master/frontend/src/assets/img/ProductRead.png)
 
-Vinicius Alves Rodrigues
+### Tela para cadastrar - Produto
+![Imagem resposta](https://github.com/vinidesenvolve/APICrudProduto/blob/master/frontend/src/assets/img/ProductCreate.png)
 
-Likedin
+### Tela para editar - Produto
+![Imagem resposta](https://github.com/vinidesenvolve/APICrudProduto/blob/master/frontend/src/assets/img/ProductUpdate.png)
 
-Email
-Licença
+### Tela para excluir - Produto
+![Imagem resposta](https://github.com/vinidesenvolve/APICrudProduto/blob/master/frontend/src/assets/img/ProductDelete.png)
 
+## Tecnologias
+
+- [TypeScript](https://www.typescriptlang.org/)  
+- [Java 11+](https://www.java.com/en/)
+- [Angular-CLI 12+](https://angular.io/cli)
+- [MySQL](https://www.mysql.com/)
+
+## Autor
+
+<p> <a href="https://github.com/vinidesenvolve">Vinicius Alves Rodrigues</a> </p>
+<p> <a href="https://www.linkedin.com/in/vinidesenvolve/">Likedin</a> </p>
+<p> <a href="vinidesenvolve@gmail.com">Email</a> </p>
+
+## Licença
+
+<p align="center">
 MIT License
 
 Copyright (c) 2021 Vinicius A. Rodrigues
 
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+</p>
