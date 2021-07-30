@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+<nav class="navbar navbar-expand-lg navbar-light" style="background-color: #467391;">
   <a href="localhost:4200" class="navbar-brand" style="color:white;">Employee Manager</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
   <span class="navbar-toggler-icon"></span>
@@ -6,7 +6,7 @@
   <div class="collapse navbar-collapse" id="navbarColor02">
      <ul class="navbar-nav mr-auto">
         <li class="nav-item active">
-           <a class="nav-link" (click)="onOpenModal(null, 'add')" > Add Employee <span class="sr-only">(current)</span></a>
+           <a class="nav-link" style="color:white;" (click)="onOpenModal(null, 'add')" > Add Employee <span class="sr-only">(current)</span></a>
         </li>
      </ul>
      <form class="form-inline my-2 my-lg-0">
@@ -22,7 +22,7 @@
      <div class="card m-b-30">
         <div class="card-body row">
            <div class="col-6">
-              <a href=""><img src="{{employee?.imageUrl}}" alt="" class="img-fluid rounded-circle w-60"></a>
+              <a href=""><img src="{{employee?.imageUrl}}" alt="Employee Image" class="img-fluid rounded-circle w-60"></a>
            </div>
            <div class="col-6 card-title align-self-center mb-0">
               <h5>{{employee?.name}}</h5>
@@ -36,7 +36,7 @@
         <div class="card-body">
            <div class="float-right btn-group btn-group-sm">
               <a  (click)="onOpenModal(employee, 'edit')" class="btn btn-primary tooltips" data-placement="top" data-original-title="Edit"><i class="fa fa-pencil"></i> </a>
-              <a  (click)="onOpenModal(employee, 'delete')" class="btn btn-secondary tooltips" data-placement="top" data-original-title="Delete"><i class="fa fa-times"></i></a>
+              <a  (click)="onOpenModal(employee, 'delete')" class="btn btn-danger tooltips" data-placement="top" data-original-title="Delete"><i class="fa fa-times"></i></a>
            </div>
         </div>
      </div>
@@ -76,7 +76,7 @@
              <input type="text" ngModel name="imageUrl" class="form-control" id="imageUrl" placeholder="Image URL" required>
           </div>
           <div class="modal-footer">
-             <button (click)="addForm.reset()" id="close-add-employee-form" class="btn btn-secondary" data-dismiss="modal">Close</button>
+             <button (click)="addForm.reset()" id="close-add-employee-form" class="btn btn-danger" data-dismiss="modal">Close</button>
              <button [disabled]="addForm.invalid" type="submit" class="btn btn-primary" >Save changes</button>
           </div>
           </form>
@@ -120,7 +120,7 @@
                  <input type="text" ngModel="{{editEmployee?.imageUrl}}" name="imageUrl" class="form-control" id="imageUrl" placeholder="Image URL">
               </div>
               <div class="modal-footer">
-                 <button type="button" id="" data-dismiss="modal" class="btn btn-secondary">Close</button>
+                 <button type="button" id="" data-dismiss="modal" class="btn btn-danger">Close</button>
                  <button (click)="onUpdateEmployee(editForm.value)" class="btn btn-primary" data-dismiss="modal" type="submit" class="btn btn-primary" >Save changes</button>
               </div>
            </form>
@@ -142,8 +142,8 @@
         <div class="modal-body">
            <p>Are you sure you want to delete {{deleteEmployee?.name}}?</p>
            <div class="modal-footer">
-              <button type="button" class="btn btn-secondary" data-dismiss="modal">No</button>
-              <button (click)="onDeleteEmployee(deleteEmployee?.id)" class="btn btn-danger" data-dismiss="modal">Yes</button>
+              <button type="button" class="btn btn-danger" data-dismiss="modal">No</button>
+              <button (click)="onDeleteEmployee(deleteEmployee?.id)" class="btn btn-primary" data-dismiss="modal">Yes</button>
            </div>
         </div>
      </div>
