@@ -18,6 +18,8 @@ Desenvolvida no curso Fullstack Spring and Angular
  <a href="#licença">Licença</a> - 
 </p>
 
+https://user-images.githubusercontent.com/75989911/127699084-fa99c767-2829-41aa-9613-a454bf7ce210.mp4
+
 ## Status 
 
 Finalizado
@@ -70,27 +72,6 @@ Entre pelo terminal na pasta front-end
 <code>$ ng serve </code>
 
 <http://localhost:4200/>
-  
-  
-
-https://user-images.githubusercontent.com/75989911/127698504-ec67ef50-d28d-438a-8eaa-879bfaa3a7c6.mp4
-
- 
-
-### Tela inicial - Home
-![Imagem home](https://github.com/vinidesenvolve/APICrudProduto/blob/master/frontend/src/assets/img/Home.png)
-
-### Tela de produtos - Produtos
-![Imagem pergunta](https://github.com/vinidesenvolve/APICrudProduto/blob/master/frontend/src/assets/img/ProductRead.png)
-
-### Tela para cadastrar - Produto
-![Imagem resposta](https://github.com/vinidesenvolve/APICrudProduto/blob/master/frontend/src/assets/img/ProductCreate.png)
-
-### Tela para editar - Produto
-![Imagem resposta](https://github.com/vinidesenvolve/APICrudProduto/blob/master/frontend/src/assets/img/ProductUpdate.png)
-
-### Tela para excluir - Produto
-![Imagem resposta](https://github.com/vinidesenvolve/APICrudProduto/blob/master/frontend/src/assets/img/ProductDelete.png)
 
 ## Tecnologias
 
